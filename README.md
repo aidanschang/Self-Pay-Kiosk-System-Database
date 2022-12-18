@@ -19,6 +19,7 @@ a.	The sales team signed a contract with a Store to expand the SPKS to a new loc
 b.	Each new Store needs to be setup by an IT staff of a SPKS company.
 c.	IT staff creates store_id, store_name, and tax_rate for the new Store.
 d.	Once created, the new Store is ready to be customized by the Admin User(s).
+
 ![image](https://user-images.githubusercontent.com/84875731/208284146-f6cac9f2-2155-4895-943b-3c7016dabeda.png)
 
 2.	Setup Admin Users/System Users
@@ -26,12 +27,14 @@ a.	The SPKS company will determine and choose whether the user will be Admin Use
 b.	If the company hires a new IT, then they create a System User.
 c.	If the company’s goal is to setup Admin Users for the Stores, the Store will tell the IT staff how many Admin Users they will need.
 a.	Once the numbers of Admin Users have been determined, the IT staff creates admin user accounts so that Admin User haves the access to the Store.
+
 ![image](https://user-images.githubusercontent.com/84875731/208284156-4bf38dba-a717-4392-b1a7-2430f45ee5e8.png)
 
 3.	View Stations
 a.	During Store service time, customer can walk up to the kiosk to browse the menu.
 b.	First thing the customer see on the kiosk are the Stations this Store has.
 c.	If the customer finds the Station to be intriguing, the customer selects the Station to view that station’s menu items.
+
 ![image](https://user-images.githubusercontent.com/84875731/208284159-49f98541-7b54-4654-8417-cec099c8bc8e.png)
 
 4.	Browse and Add Menu Items to the Cart
@@ -49,24 +52,29 @@ BYO_Item
   b.	Depends on how the BYO item were designed, the SPKS prompts number of steps to asks the customer to select desired ingredients to be included in the BYO menu item.
   c.	For example, in order to build a burger, first step is to select type of buns (brioche, wheat, multigrain), second step is to select type of patties (beef patties, impossible), third step is to select type of cheese (pepper jack, American, Swiss, cheddar), forth step is to select type of condiments (mayo, mustard, ketchup), and fifth step is to select type of sides (French fries, sweet potato fries, onion rings).
   d.	Once the BYO menu item has been built, it is added to the cart automatically.
+
 ![image](https://user-images.githubusercontent.com/84875731/208284183-a16e5eed-c537-4b4c-b4e7-06398d7001e0.png)
 
 5.	Browse and add a built-your-own (BYO) Menu item to cart
+
 ![image](https://user-images.githubusercontent.com/84875731/208284190-7af060ce-ce7c-4c28-800a-a4e20f34fc44.png)
 
 6.	Checkout order
 a.	The customer can add multiple desired Menu Items to the cart.
 b.	Once all items have been added, the customer can proceed to checkout.
 c.	After the order has been processed, a detail receipt will be printed for the customer which contains order number, timestamp, store ID, store name, line items, prices, tax, and sales total.
+
 ![image](https://user-images.githubusercontent.com/84875731/208284202-d5720455-3d84-435c-a471-840d9d5c6afd.png)
 
 7.	Print Kitchen Orders
 a.	The processed order will be printed at adequate printers at the stations depending on what food the customer ordered.
+
 ![image](https://user-images.githubusercontent.com/84875731/208284212-389973db-55e7-4e9f-b7ff-c8b643c9cbf1.png)
 
 8.	Customer Refund
 a.	A customer may ask for a refund for their unsatisfied meals. 
 b.	The admin user (café manager) may issue a refund through SPKS terminal by identifying customer’s order_number that was printed on their receipts.
+
 ![image](https://user-images.githubusercontent.com/84875731/208284220-fe0b5ee1-c47d-4663-89ab-a57513e44f66.png)
 
 ## Structural Database Rules
