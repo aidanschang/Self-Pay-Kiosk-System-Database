@@ -19,7 +19,6 @@ a.	The sales team signed a contract with a Store to expand the SPKS to a new loc
 b.	Each new Store needs to be setup by an IT staff of a SPKS company.
 c.	IT staff creates store_id, store_name, and tax_rate for the new Store.
 d.	Once created, the new Store is ready to be customized by the Admin User(s).
-
 ![image](https://user-images.githubusercontent.com/84875731/208284146-f6cac9f2-2155-4895-943b-3c7016dabeda.png)
 
 2.	Setup Admin Users/System Users
@@ -27,14 +26,12 @@ a.	The SPKS company will determine and choose whether the user will be Admin Use
 b.	If the company hires a new IT, then they create a System User.
 c.	If the company’s goal is to setup Admin Users for the Stores, the Store will tell the IT staff how many Admin Users they will need.
 a.	Once the numbers of Admin Users have been determined, the IT staff creates admin user accounts so that Admin User haves the access to the Store.
-
 ![image](https://user-images.githubusercontent.com/84875731/208284156-4bf38dba-a717-4392-b1a7-2430f45ee5e8.png)
 
 3.	View Stations
 a.	During Store service time, customer can walk up to the kiosk to browse the menu.
 b.	First thing the customer see on the kiosk are the Stations this Store has.
 c.	If the customer finds the Station to be intriguing, the customer selects the Station to view that station’s menu items.
-
 ![image](https://user-images.githubusercontent.com/84875731/208284159-49f98541-7b54-4654-8417-cec099c8bc8e.png)
 
 4.	Browse and Add Menu Items to the Cart
