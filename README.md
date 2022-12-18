@@ -158,6 +158,7 @@ Part 3 involves hard coding a few receipt templates that simulate a few most com
 ![image](https://user-images.githubusercontent.com/84875731/208284284-7e89e44c-0d3b-4b2b-b98d-305586e20311.png)
 
 Executing stored procedures are straightforward except Receipt and Has Entities. They were a bit trickier because without the aid of computer automation from the Controllers and View, it required some plannings for the combinations of different menu types and pre-calculations on the sales price.
+
 ![image](https://user-images.githubusercontent.com/84875731/208284289-1efaef68-ef96-450f-a177-3d5ef9650bfe.png)
 
  
