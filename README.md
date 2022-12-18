@@ -141,11 +141,7 @@ Part 1 of the stored procedures is straigtforward as it just passes data into th
 Part 2 involves stored procedures for the bridge entities and I had to hard coded two procedures because creating modifiers and BYO steps are very subjective to each Store and I don’t have the knowledge yet to dynamically create a stored procedures that invloves unknown number of data rows to be inserted. 
 ![image](https://user-images.githubusercontent.com/84875731/208284281-54b23720-44a5-4450-bde0-41f19c4848e0.png)
 
-Part 3 involves hard coding a few receipt templates that simulate a few most common combinations that would occurred during real usage. As I mentioned earlier, since my Receipt Entity takes the advantage of using many to many relationship, I can’t dynamically create a stored procedure that captures all the menu items, modifiers, and BYO items with my current knowledge.
-![image](https://user-images.githubusercontent.com/84875731/208284284-7e89e44c-0d3b-4b2b-b98d-305586e20311.png)
-
 Executing stored procedures are straightforward except Receipt and Has Entities. They were a bit trickier because without the aid of computer automation from the Controllers and View, it required some plannings for the combinations of different menu types and pre-calculations on the sales price.
-
 ![image](https://user-images.githubusercontent.com/84875731/208284289-1efaef68-ef96-450f-a177-3d5ef9650bfe.png)
 
 ## Index Identification and Creations
