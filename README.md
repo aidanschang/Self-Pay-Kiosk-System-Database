@@ -169,5 +169,31 @@ Executing stored procedures are straightforward except Receipt and Has Entities.
 
 ![image](https://user-images.githubusercontent.com/84875731/208284289-1efaef68-ef96-450f-a177-3d5ef9650bfe.png)
 
+## Index Identification and Creations
+Based on the rules identifying columns that need to be indexed, other than all the primary key and foreign key, I have determined that the item calories, name, and type should be nonunique indexes since they have higher chance to be filtered. Although TRAN_TIME are more heavily used than the item_type, due to small number of distinctive values, it is not practical to add index on TRAN_TIME.
+![image](https://user-images.githubusercontent.com/84875731/208284575-734fd3f5-695b-409a-807e-2b714545182f.png)
+
+## History Table Demonstration
+Based on the characteristics of a history table, I realized it works like a refund table that automatically stores a refund transaction of an existing receipt. For that reason, I decided to design it into a Receipt_Refund_History table and structural database rule and EDRs were updated accordingly.
+
+In real world, the Store managers interact with the View to initial a refund (whole or partial) of an existing receipt, then update both Receipt and Has tables through business logics. Ultimately, a change on Receipt table triggers the SQL trigger function and update itself and store the refund information. 
+
+1.	To avoid any repetitive and transitive dependencies, this table only contains the old and new pretax amount and the time it was changed other than the primary and foreign keys.  
+
  
+
+2.	I first added the sequence and index for the history table. For the trigger, I firstly initiate a sequence for the refund table then I use “AFTER UPDATE” to ensure that I only capture the refunds history after transaction has completed. Secondly, I included a comparison between the old and new pretax_amount to trigger the insertion of the receipt_refund_history table.
+ 
+
+
+
+
+
+
+3.	In this step, I am testing and validating the trigger by updating the pretax_amount on one of the receipts. Then I immediately select the receipt_refund_history table to ensure it captures all columns as it should.
+
+ 
+
+
+
 
