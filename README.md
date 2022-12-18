@@ -31,7 +31,7 @@ a.	Once the numbers of Admin Users have been determined, the IT staff creates ad
 3.	View Stations
 a.	During Store service time, customer can walk up to the kiosk to browse the menu.
 b.	First thing the customer see on the kiosk are the Stations this Store has.
-c.	If the customer finds the Station to be intriguing, the customer selects the Station to view that station’s menu items.
+c.	If the customer finds the Station to be intriguing, the customer selects the Station to view that station’s menu items. <br />
 ![image](https://user-images.githubusercontent.com/84875731/208284159-49f98541-7b54-4654-8417-cec099c8bc8e.png)
 
 4.	Browse and Add Menu Items to the Cart<br />
