@@ -164,7 +164,7 @@ In real world, the Store managers interact with the View to initial a refund (wh
 ![image](https://user-images.githubusercontent.com/84875731/208284595-e90d8d98-aabe-49c6-8c3f-6a30f8fe5a3a.png)
 
  ## Summary and Reflection
- The purpose of a SPKS is to reduce the labor expense by eliminating the cashier roles. The system must be reliable and accurate at all times. There are many SPKS in the market but only the ones that are secure, reliable, versatile, and the best user experience shines. 
+The purpose of a SPKS is to reduce the labor expense by eliminating the cashier roles. The system must be reliable and accurate at all times. There are many SPKS in the market but only the ones that are secure, reliable, versatile, and the best user experience shines. 
 
 The heart of a SPKS is the relationship between the subtypes of a menu item as well as how receipts are interacting with the menu items. I have captured the differences between a modifier, single item, and a build-your-own item and constructed their relationships to the sales receipts through a bridge entity. The use cases and structural database rules provides the main objectives of a SPKS while the conceptual ERD and DBMS physical EDR contains essential relationships and attributes between each entity within a SPKS. To make the database more efficient, I created a few indexes out of the foreign keys and an attribute of some heavy traffic entities while executing common queries.
 
