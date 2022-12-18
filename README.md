@@ -184,7 +184,14 @@ In real world, the Store managers interact with the View to initial a refund (wh
 3.	In this step, I am testing and validating the trigger by updating the pretax_amount on one of the receipts. Then I immediately select the receipt_refund_history table to ensure it captures all columns as it should.
 ![image](https://user-images.githubusercontent.com/84875731/208284595-e90d8d98-aabe-49c6-8c3f-6a30f8fe5a3a.png)
 
- 
+ ## Summary and Reflection
+ The purpose of a SPKS is to reduce the labor expense by eliminating the cashier roles. The system must be reliable and accurate at all times. There are many SPKS in the market but only the ones that are secure, reliable, versatile, and the best user experience shines. 
+
+The heart of a SPKS is the relationship between the subtypes of a menu item as well as how receipts are interacting with the menu items. I have captured the differences between a modifier, single item, and a build-your-own item and constructed their relationships to the sales receipts through a bridge entity. The use cases and structural database rules provides the main objectives of a SPKS while the conceptual ERD and DBMS physical EDR contains essential relationships and attributes between each entity within a SPKS. To make the database more efficient, I created a few indexes out of the foreign keys and an attribute of some heavy traffic entities while executing common queries.
+
+In this SPKS design, I also utilized the trigger function as my business logic to update my receipt_refund_history table since it is a direct built-in feature of SQL, and I don’t have to depend on another service to do so. To better interact with the database, I also outlined some of the common usages of stored procedures to insert data rows to the SPKS and I executed those stored procedures to populate a sample dataset that are used for the system testing and testing. By design, a SPKS should be capable of maintaining sales history and providing various types of sales reports. Therefore, I conducted a few sales reports such as hourly report and weekday reports and I visualized the results by exporting the query result into Microsoft Excel.
+
+Even though this SPKS is overly simplified because the Controller, the View, and the hardware communications are left out in this design stage, but based on my experience with the SPKS, I am still very confident that this database design is robust and can continuously expand without a major reconstruction. 
 
 
 
