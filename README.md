@@ -35,20 +35,20 @@ c.	If the customer finds the Station to be intriguing, the customer selects the 
 ![image](https://user-images.githubusercontent.com/84875731/208284159-49f98541-7b54-4654-8417-cec099c8bc8e.png)
 
 4.	Browse and Add Menu Items to the Cart<br />
-* Single_Item
-  1. Once the customer selects the Station, the customer can see all the Menu Items from that Station.
-  2.	Menu items are associate with information such as price, calories, and item descriptions.
-  3.	There are two types of Menu Items, a Single Item or a Build Your Own Item (BYO Item).
-  4.	If a customer selects a Single Item, the selection process is finished and can proceed to select more Menu Items or check out. <br />
-* Modifier_Item
-  1.	Modifier_Item behalf like a menu item but instead being a food item, modifiers are the instructions that describe how a menu item should be prepared. 
-  2.	For example, the kiosk asks the customer for the salad dressing level or how well-cooked they want their steak to be cooked. The customer can select the Modifier_Item such as “Light”, “Normal”, and “Extra” for the dressing level and “Rare”, “Medium”, and “Well Done” for the wellness of the steak.	
-  3.	Modifier_Item may contain calories information for places like hospitals or gyms or may associate with up-charge if “Extra” dressing was selected.<br />
-* BYO_Item
-  1.	A customer selects a BYO menu item on a Station.
-  2.	Depends on how the BYO item were designed, the SPKS prompts number of steps to asks the customer to select desired ingredients to be included in the BYO menu           item.
-  3.	For example, in order to build a burger, first step is to select type of buns (brioche, wheat, multigrain), second step is to select type of patties (beef    patties, impossible), third step is to select type of cheese (pepper jack, American, Swiss, cheddar), forth step is to select type of condiments (mayo, mustard,    ketchup), and fifth step is to select type of sides (French fries, sweet potato fries, onion rings).
-  4.	Once the BYO menu item has been built, it is added to the cart automatically.
+  * Single_Item
+    1. Once the customer selects the Station, the customer can see all the Menu Items from that Station.
+    2.	Menu items are associate with information such as price, calories, and item descriptions.
+    3.	There are two types of Menu Items, a Single Item or a Build Your Own Item (BYO Item).
+    4.	If a customer selects a Single Item, the selection process is finished and can proceed to select more Menu Items or check out. <br />
+  * Modifier_Item
+    1.	Modifier_Item behalf like a menu item but instead being a food item, modifiers are the instructions that describe how a menu item should be prepared. 
+    2.	For example, the kiosk asks the customer for the salad dressing level or how well-cooked they want their steak to be cooked. The customer can select the Modifier_Item such as “Light”, “Normal”, and “Extra” for the dressing level and “Rare”, “Medium”, and “Well Done” for the wellness of the steak.	
+    3.	Modifier_Item may contain calories information for places like hospitals or gyms or may associate with up-charge if “Extra” dressing was selected.<br />
+  * BYO_Item
+    1.	A customer selects a BYO menu item on a Station.
+    2.	Depends on how the BYO item were designed, the SPKS prompts number of steps to asks the customer to select desired ingredients to be included in the BYO menu           item.
+    3.	For example, in order to build a burger, first step is to select type of buns (brioche, wheat, multigrain), second step is to select type of patties (beef  patties, impossible), third step is to select type of cheese (pepper jack, American, Swiss, cheddar), forth step is to select type of condiments (mayo, mustard,    ketchup), and fifth step is to select type of sides (French fries, sweet potato fries, onion rings).
+    4.	Once the BYO menu item has been built, it is added to the cart automatically.
 ![image](https://user-images.githubusercontent.com/84875731/208284183-a16e5eed-c537-4b4c-b4e7-06398d7001e0.png)
 
 5.	Browse and add a built-your-own (BYO) Menu item to cart
