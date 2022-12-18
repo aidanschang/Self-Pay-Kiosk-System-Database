@@ -49,29 +49,24 @@ BYO_Item
   b.	Depends on how the BYO item were designed, the SPKS prompts number of steps to asks the customer to select desired ingredients to be included in the BYO menu item.
   c.	For example, in order to build a burger, first step is to select type of buns (brioche, wheat, multigrain), second step is to select type of patties (beef patties, impossible), third step is to select type of cheese (pepper jack, American, Swiss, cheddar), forth step is to select type of condiments (mayo, mustard, ketchup), and fifth step is to select type of sides (French fries, sweet potato fries, onion rings).
   d.	Once the BYO menu item has been built, it is added to the cart automatically.
-
-![image](https://user-images.githubusercontent.com/84875731/208284183-a16e5eed-c537-4b4c-b4e7-06398d7001e0.png)
+  ![image](https://user-images.githubusercontent.com/84875731/208284183-a16e5eed-c537-4b4c-b4e7-06398d7001e0.png)
 
 5.	Browse and add a built-your-own (BYO) Menu item to cart
-
 ![image](https://user-images.githubusercontent.com/84875731/208284190-7af060ce-ce7c-4c28-800a-a4e20f34fc44.png)
 
 6.	Checkout order
 a.	The customer can add multiple desired Menu Items to the cart.
 b.	Once all items have been added, the customer can proceed to checkout.
 c.	After the order has been processed, a detail receipt will be printed for the customer which contains order number, timestamp, store ID, store name, line items, prices, tax, and sales total.
-
 ![image](https://user-images.githubusercontent.com/84875731/208284202-d5720455-3d84-435c-a471-840d9d5c6afd.png)
 
 7.	Print Kitchen Orders
 a.	The processed order will be printed at adequate printers at the stations depending on what food the customer ordered.
-
 ![image](https://user-images.githubusercontent.com/84875731/208284212-389973db-55e7-4e9f-b7ff-c8b643c9cbf1.png)
 
 8.	Customer Refund
 a.	A customer may ask for a refund for their unsatisfied meals. 
 b.	The admin user (café manager) may issue a refund through SPKS terminal by identifying customer’s order_number that was printed on their receipts.
-
 ![image](https://user-images.githubusercontent.com/84875731/208284220-fe0b5ee1-c47d-4663-89ab-a57513e44f66.png)
 
 ## Structural Database Rules
