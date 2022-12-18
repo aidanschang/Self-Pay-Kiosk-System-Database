@@ -48,7 +48,7 @@ c.	If the customer finds the Station to be intriguing, the customer selects the 
     a.	A customer selects a BYO menu item on a Station.
     b.	Depends on how the BYO item were designed, the SPKS prompts number of steps to asks the customer to select desired ingredients to be included in the BYO menu           item.
     c.	For example, in order to build a burger, first step is to select type of buns (brioche, wheat, multigrain), second step is to select type of patties (beef  patties, impossible), third step is to select type of cheese (pepper jack, American, Swiss, cheddar), forth step is to select type of condiments (mayo, mustard,    ketchup), and fifth step is to select type of sides (French fries, sweet potato fries, onion rings).
-    d.	Once the BYO menu item has been built, it is added to the cart automatically.
+    d.	Once the BYO menu item has been built, it is added to the cart automatically. <br />
 ![image](https://user-images.githubusercontent.com/84875731/208284183-a16e5eed-c537-4b4c-b4e7-06398d7001e0.png)
 
 5.	Browse and add a built-your-own (BYO) Menu item to cart
