@@ -70,9 +70,8 @@ b.	The admin user (café manager) may issue a refund through SPKS terminal by id
 ![image](https://user-images.githubusercontent.com/84875731/208284220-fe0b5ee1-c47d-4663-89ab-a57513e44f66.png)
 
 ## Structural Database Rules
-  1.	The SPKS associate with one or many System Users, each System User is associated by a SPKS.
+1.	The SPKS associate with one or many System Users, each System User is associated by a SPKS.
 (Mandatory, singular/plural), (Mandatory, singular)
-
 The SPKS needs a System User(s) to perform daily operations and maintenance to the system at a corporate level. Therefore, one to many System Users are necessary for this SPKS that I am designing.
 
 2.	A User is a System User, or an Admin User.
