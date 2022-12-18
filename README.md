@@ -5,9 +5,9 @@ As an individual with hospitality background, I have extensive experience workin
 
 For a quick overview of my vision of SPKS, I created the following scenario to illustrate how the SPKS works:
 
-<em>A customer walked into a Store and wants to buy some lunch. The customer walks up to a kiosk screen and browses for today’s menu offering. The Store offers stations like Chef’s Special, Tossed Salad Bar, Grille, and Fusion. Within each station, the customer can find the menu items on the kiosk screen and can either select a single item or build an item step by step like burgers or tossed salads and added to the cart. By design, modifiers can be added to some customizable items such as amount of dressing on a salad or toasted/untoasted bread on a deli sandwich. 
+A customer walked into a Store and wants to buy some lunch. The customer walks up to a kiosk screen and browses for today’s menu offering. The Store offers stations like Chef’s Special, Tossed Salad Bar, Grille, and Fusion. Within each station, the customer can find the menu items on the kiosk screen and can either select a single item or build an item step by step like burgers or tossed salads and added to the cart. By design, modifiers can be added to some customizable items such as amount of dressing on a salad or toasted/untoasted bread on a deli sandwich. 
 
-Once finished selecting, the customer can proceed to check out on the kiosk screen and a detailed receipt with order number is printed. Consequently, the corresponded Station printers will receive a ticket with the name of the dish as well as the order number. Another core feature of a SPKS is that an administrative user has access to view all sales history to fulfill their financial duties.<em/>
+Once finished selecting, the customer can proceed to check out on the kiosk screen and a detailed receipt with order number is printed. Consequently, the corresponded Station printers will receive a ticket with the name of the dish as well as the order number. Another core feature of a SPKS is that an administrative user has access to view all sales history to fulfill their financial duties.
 
 Given that SPKS are highly customizable at each Store, the onsite managers are often given with the admin access to perform operations such as create, delete, and modify the database that mentioned above. However, since this project doesn’t involve with the View and business logic aspect of the SPKS development, this database is only as beneficial as storing and retrieving data. 
 
@@ -61,7 +61,7 @@ c.	After the order has been processed, a detail receipt will be printed for the 
 ![image](https://user-images.githubusercontent.com/84875731/208284202-d5720455-3d84-435c-a471-840d9d5c6afd.png)
 
 7.	Print Kitchen Orders
-a.	The processed order will be printed at adequate printers at the stations depending on what food the customer ordered.
+a.	The processed order will be printed at adequate printers at the stations depending on what food the customer ordered.<br />
 ![image](https://user-images.githubusercontent.com/84875731/208284212-389973db-55e7-4e9f-b7ff-c8b643c9cbf1.png)
 
 8.	Customer Refund
