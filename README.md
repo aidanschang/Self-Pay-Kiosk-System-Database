@@ -34,12 +34,12 @@ b.	First thing the customer see on the kiosk are the Stations this Store has.
 c.	If the customer finds the Station to be intriguing, the customer selects the Station to view that station’s menu items.
 ![image](https://user-images.githubusercontent.com/84875731/208284159-49f98541-7b54-4654-8417-cec099c8bc8e.png)
 
-4.	Browse and Add Menu Items to the Cart
+4.	Browse and Add Menu Items to the Cart__
 Single_Item
 a.	Once the customer selects the Station, the customer can see all the Menu Items from that Station.
 b.	Menu items are associate with information such as price, calories, and item descriptions.
 c.	There are two types of Menu Items, a Single Item or a Build Your Own Item (BYO Item).
-d.	If a customer selects a Single Item, the selection process is finished and can proceed to select more Menu Items or check out. 
+d.	If a customer selects a Single Item, the selection process is finished and can proceed to select more Menu Items or check out. <br />
 Modifier_Item
 a.	Modifier_Item behalf like a menu item but instead being a food item, modifiers are the instructions that describe how a menu item should be prepared. 
 b.	For example, the kiosk asks the customer for the salad dressing level or how well-cooked they want their steak to be cooked. The customer can select the Modifier_Item such as “Light”, “Normal”, and “Extra” for the dressing level and “Rare”, “Medium”, and “Well Done” for the wellness of the steak.	
