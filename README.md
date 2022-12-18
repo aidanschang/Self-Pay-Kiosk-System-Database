@@ -135,17 +135,17 @@ When reviewing for transitive dependencies, I noticed that I originally have sto
 By following the rule ‘every determinant must be a candidate key’, I have reviewed and confirmed that no two candidate keys exist within any given entity, therefore, my DBMS physical ERS is compliant with BCNF.
 
 ## Stored Procedure Execution and Explanations
-Part 1 of the stored procedures is straigtforward as it just passes data into the entities.
+Part 1 of the stored procedures is straigtforward as it just passes data into the entities.<br />
 ![image](https://user-images.githubusercontent.com/84875731/208284278-2ed1a6e6-1392-4de9-888a-93d673e02ee0.png)
 
-Part 2 involves stored procedures for the bridge entities and I had to hard coded two procedures because creating modifiers and BYO steps are very subjective to each Store and I don’t have the knowledge yet to dynamically create a stored procedures that invloves unknown number of data rows to be inserted. 
+Part 2 involves stored procedures for the bridge entities and I had to hard coded two procedures because creating modifiers and BYO steps are very subjective to each Store and I don’t have the knowledge yet to dynamically create a stored procedures that invloves unknown number of data rows to be inserted.<br />
 ![image](https://user-images.githubusercontent.com/84875731/208284281-54b23720-44a5-4450-bde0-41f19c4848e0.png)
 
-Executing stored procedures are straightforward except Receipt and Has Entities. They were a bit trickier because without the aid of computer automation from the Controllers and View, it required some plannings for the combinations of different menu types and pre-calculations on the sales price.
+Executing stored procedures are straightforward except Receipt and Has Entities. They were a bit trickier because without the aid of computer automation from the Controllers and View, it required some plannings for the combinations of different menu types and pre-calculations on the sales price.<br />
 ![image](https://user-images.githubusercontent.com/84875731/208284289-1efaef68-ef96-450f-a177-3d5ef9650bfe.png)
 
 ## Index Identification and Creations
-Based on the rules identifying columns that need to be indexed, other than all the primary key and foreign key, I have determined that the item calories, name, and type should be nonunique indexes since they have higher chance to be filtered. Although TRAN_TIME are more heavily used than the item_type, due to small number of distinctive values, it is not practical to add index on TRAN_TIME.
+Based on the rules identifying columns that need to be indexed, other than all the primary key and foreign key, I have determined that the item calories, name, and type should be nonunique indexes since they have higher chance to be filtered. Although TRAN_TIME are more heavily used than the item_type, due to small number of distinctive values, it is not practical to add index on TRAN_TIME.<br />
 ![image](https://user-images.githubusercontent.com/84875731/208284575-734fd3f5-695b-409a-807e-2b714545182f.png)
 
 ## History Table Demonstration
