@@ -1,4 +1,4 @@
-# Self-Pay-Kiosk-System-Database
+# Self-Pay-Kiosk-System-Relational Database
 
 ## Project Direction Overview
 As an individual with hospitality background, I have extensive experience working with Self Pay Kiosk System (SPKS) and I would like to develop a simplified version of a SPKS that is commonly used in restaurants and corporate cafeterias (refer to Stores in the rest of the project). 
