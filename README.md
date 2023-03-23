@@ -1,7 +1,7 @@
 # Self-Pay-Kiosk Relational Database System
 
 ## Project Direction Overview
-As an individual with hospitality background, I have extensive experience working with Self Pay Kiosk System (SPKS) and I would like to develop a simplified version of a SPKS that is commonly used in restaurants and corporate cafeterias (refer to Stores in the rest of the project). 
+I designed and implemented a Self Pay Kiosk Relational Database System (RDBS) using Oracle SQL Developer. This involved creating design documentation that specified the use cases, structural database rules, physical Entity-Relationship Diagram (ERD), index identifications, and data visualizations.
 
 For a quick overview of my vision of SPKS, I created the following scenario to illustrate how the SPKS works:
 
